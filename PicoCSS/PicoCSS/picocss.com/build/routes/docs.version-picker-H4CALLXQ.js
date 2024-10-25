@@ -1,0 +1,21 @@
+import{a as b,b as U}from"/build/_shared/chunk-JRCO4XTU.js";import{a as T}from"/build/_shared/chunk-RI7YJF2N.js";import{a as $}from"/build/_shared/chunk-YSWQKXFT.js";import"/build/_shared/chunk-LVW6VCGV.js";import"/build/_shared/chunk-GL7VW4BM.js";import{a as x,b as z}from"/build/_shared/chunk-JT4PCSGL.js";import"/build/_shared/chunk-BZ4AUIAY.js";import{a as f}from"/build/_shared/chunk-PGB5EDTS.js";import{a as h,b as R}from"/build/_shared/chunk-43B2LPYD.js";import{a as k}from"/build/_shared/chunk-2LGDFLPT.js";import"/build/_shared/chunk-SNDHQUDE.js";import{a as H}from"/build/_shared/chunk-OLA7NHCU.js";import{a as d}from"/build/_shared/chunk-UUMWCJG3.js";import"/build/_shared/chunk-WBY45DIQ.js";import{b as l,c as B,h as S,q as p}from"/build/_shared/chunk-YTHO3L5P.js";var g=l(B());var i=l(p()),y={replace(o){if(o.name==="a"){let{href:c,...a}=o.attribs;return(0,i.jsx)(H,{to:c,...a,children:(0,U.domToReact)(o.children,y)})}}};function P(){let{baseConfiguration:o,baseIndex:c,conditionalIndex:a,conditionalConfiguration:t,customizationRef:s,setBaseIndex:u,setConditionalIndex:v}=h(),C=n=>{v(n.target.checked?1:0)};return(0,i.jsxs)("section",{ref:s,children:[(0,i.jsx)(d,{level:2,anchor:"configuration",children:"Configuration"}),(0,i.jsx)("select",{name:"configuration",onChange:n=>u(n.target.value),children:o.map(({name:n},m)=>(0,i.jsx)("option",{value:m,children:b(n)},m))}),(0,i.jsx)("small",{children:b(o[c].description,y)}),(0,i.jsx)("fieldset",{children:(0,i.jsxs)("label",{children:[(0,i.jsx)("input",{name:"conditional",type:"checkbox",role:"switch",onChange:C}),"Conditional Styling"]})}),(0,i.jsx)("small",{children:b(t[a].description,y)})]})}var r=l(p()),{cdnBaseUrl:F}=f,A=o=>o==="azure"?{}:{"$theme-color":`"${o}"`},M=(o,c)=>o[c].sassProperties,W=(o,c)=>o[c].sassProperties;function G(o){return Object.keys(o).length===0?'@use "pico";':`@use "pico" with (
+${Object.entries(o).map(([a,t])=>`  ${a}: ${t}`).join(`,
+`)}
+);`}function w(){let{usageFromCdnRef:o,usageWithSaasRef:c,starterHtmlTemplateRef:a,baseIndex:t,baseConfiguration:s,conditionalIndex:u,conditionalConfiguration:v,picoFileName:C,simplifiedCssLink:n,themeColor:m}=h(),I=A(m),O=M(s,t),E=W(v,u),L={...I,...O,...E},D=G(L);return(0,r.jsxs)(r.Fragment,{children:[(0,r.jsxs)("section",{ref:o,children:[(0,r.jsx)(d,{level:2,anchor:"usage-from-cdn",children:"Usage from CDN"}),(0,r.jsx)(k,{children:`<link
+  rel="stylesheet"
+  href="${F}css/${C}"
+>`})]}),(0,r.jsxs)("section",{ref:c,children:[(0,r.jsx)(d,{level:2,anchor:"usage-with-sass",children:"Usage with Sass"}),(0,r.jsx)(k,{language:"scss",children:D})]}),(0,r.jsxs)("section",{ref:a,children:[(0,r.jsx)(d,{level:2,anchor:"starter-html-template",children:"Starter HTML template"}),(0,r.jsx)(k,{children:`<!doctype html>
+<html lang="en"${u===1?' class="pico"':""}>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="color-scheme" content="light dark" />
+    ${n}
+    <title>Hello world!</title>
+  </head>
+  <body>
+    <main class="container">
+      <h1>Hello world!</h1>
+    </main>
+  </body>
+</html>`})]})]})}var V="/build/_assets/color-picker-P26DGBF7.css";var e=l(p()),{titleSuffix:q}=f,J=()=>[{title:`Version picker ${q}`},{name:"description",content:"Easily select the ideal Pico CSS version variant to match your project's needs."}];function K(){return[{rel:"stylesheet",href:V}]}function j(){let o=(0,g.useRef)(),c=(0,g.useRef)(),a=(0,g.useRef)(),t=(0,g.useRef)(),s=(0,g.useRef)();return(0,e.jsxs)(e.Fragment,{children:[(0,e.jsx)(z,{title:"Version picker",description:"Easily select the ideal Pico CSS version variant to match your project's needs."}),(0,e.jsx)(T,{data:[{anchor:"",title:"Theme",ref:o},{anchor:"configuration",title:"Configuration",ref:c},{anchor:"usage-from-cdn",title:"Usage from CDN",ref:a},{anchor:"usage-with-sass",title:"Usage with Sass",ref:t},{anchor:"starter-html-template",title:"Starter HTML template",ref:s}]}),(0,e.jsx)(x,{children:(0,e.jsxs)(R,{value:{themeRef:o,customizationRef:c,usageFromCdnRef:a,usageWithSaasRef:t,starterHtmlTemplateRef:s},children:[(0,e.jsx)(S,{}),(0,e.jsx)(P,{}),(0,e.jsx)(w,{}),(0,e.jsx)($,{file:"docs.version-picker.jsx"})]})})]})}export{j as default,K as links,J as meta};

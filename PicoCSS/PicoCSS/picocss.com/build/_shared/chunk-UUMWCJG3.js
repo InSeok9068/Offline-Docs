@@ -1,0 +1,1 @@
+import{b as d,c as s,q as r}from"/build/_shared/chunk-YTHO3L5P.js";var f=d(s()),e=d(r()),p=({anchor:a,children:o,level:t,...g},n)=>{let i=`h${t}`;return(0,e.jsxs)(i,{ref:n,...g,children:[o,a&&(0,e.jsx)("a",{href:`#${a}`,id:a,className:"secondary",tabIndex:-1,children:"#"})]})},H=(0,f.forwardRef)(p);export{H as a};

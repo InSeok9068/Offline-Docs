@@ -1,0 +1,1 @@
+import{a as e}from"/build/_shared/chunk-PGB5EDTS.js";var{titleSuffix:o}=e;function i(t){return`Minimal ${t} theme ${o}`}function n(t){return`CSS code to customize Pico's primary color to ${t} with CSS variables.`}export{i as a,n as b};

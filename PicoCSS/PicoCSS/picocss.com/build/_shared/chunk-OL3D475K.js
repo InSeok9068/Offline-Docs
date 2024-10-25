@@ -1,0 +1,1 @@
+import{b as t,q as n}from"/build/_shared/chunk-YTHO3L5P.js";var o=t(n());function a(e){return(0,o.jsx)("a",{...e,href:"#content",className:"skip-to-content contrast",role:"button",children:"Skip to content"})}export{a};

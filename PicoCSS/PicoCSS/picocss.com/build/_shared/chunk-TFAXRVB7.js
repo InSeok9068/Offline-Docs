@@ -1,0 +1,1 @@
+var e="/build/_assets/landings-DZ4NK2D3.css";export{e as a};

@@ -1,0 +1,9 @@
+# HTTrack Website Copier Cookie File
+# This file format is compatible with Netscape cookies
+github.com	TRUE	/	FALSE	1999999999	_gh_sess	qH15OEKXqduEjyEUIq11TOpEbwyX3uhP9dxv5HX8a0osDEwPi235fYTmeZ7Zmjff%2FFkzkZxN5FeG2C9q74H2T8FDvIG6U%2FlYGsAfpdQuz0h17l9aXnVhC7vMutVS6%2F1NtI1YjXPdvQ6irMpQXz%2FAjgGj8pbL6CApuDWc5eaSeLXzQRbA6gJP8C6N%2BqVyWV5SX4TGxe%2FrlSKWIQFXl8ccfgyv1Nvm3y47VAX7uL%2Fv38LXIsDi60aQfNqVSR0XaQvjDD7yZ1jZ1dwu3l4ool6tQA%3D%3D--3AXMPJ6%2BXtqGaBkE--9oDNjzHzxYmCl4245xw0Kw%3D%3D
+github.com	TRUE	/	FALSE	1999999999	_octo	GH1.1.303759876.1729839005
+github.com	TRUE	/	FALSE	1999999999	logged_in	no
+github.com	TRUE	/	FALSE	1999999999	SameSite	Lax
+.codesandbox.io	TRUE	/	FALSE	1999999999	_cfuvid	DpZEE.2gWgmorZgispX5331g7lNEvFzg3zpWhVl8HD8-1729839066914-0.0.1.1-604800000
+codesandbox.io	TRUE	/	FALSE	1999999999	SameSite	None
+
